@@ -11,11 +11,11 @@ public class ReturnNumber {
         Scanner scan = new Scanner(System.in);
         int numberFromUser = -1;
 
-        try {
+
             numberFromUser = scan.nextInt();
-        } catch (java.util.InputMismatchException ss) {
-            System.out.println("Nu ati introdus o cifra.");
-        }
+
+
+
         switch (numberFromUser) {
             case 0:
                 System.out.println("Cifra introdusa este: " + numberFromUser);

@@ -9,8 +9,12 @@ public class Main {
 
 //message for user:
         System.out.println("Introduceti un numar de la 0 la 9: ");
-        
+
         ReturnNumber number = new ReturnNumber();
-        number.returnNumber();
+        try {
+            number.returnNumber();
+        } catch (java.util.InputMismatchException ss) {
+            System.out.println("Nu ati introdus o cifra.");
+        }
     }
 }
