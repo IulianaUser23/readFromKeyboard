@@ -7,8 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-
+//message for user:
         System.out.println("Introduceti un numar de la 0 la 9: ");
+        
         ReturnNumber number = new ReturnNumber();
         number.returnNumber();
     }
