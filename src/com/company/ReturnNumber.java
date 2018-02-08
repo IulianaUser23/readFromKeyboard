@@ -11,10 +11,7 @@ public class ReturnNumber {
         Scanner scan = new Scanner(System.in);
         int numberFromUser = -1;
 
-
             numberFromUser = scan.nextInt();
-
-
 
         switch (numberFromUser) {
             case 0:
